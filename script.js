@@ -87,4 +87,3 @@ if (menuToggle && navLinks) {
         });
     });
 
-}
