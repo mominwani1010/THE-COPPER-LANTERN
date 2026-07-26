@@ -1,134 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>THE COPPER LANTERN</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Copper Lantern</title>
 
-<style>
-body{
-margin:0;
-font-family:Arial,sans-serif;
-background:#f5efe3;
-color:#3b2a20;
-}
-header{
-background:#5a3d2b;
-color:white;
-padding:20px;
-text-align:center;
-}
-nav{
-background:#8b5e3c;
-padding:10px;
-text-align:center;
-}
-nav a{
-color:white;
-margin:15px;
-text-decoration:none;
-font-weight:bold;
-}
-.hero{
-padding:60px 20px;
-text-align:center;
-background:#d8c3a5;
-}
-.hero h1{
-font-size:40px;
-}
-.button{
-background:#8b5e3c;
-color:white;
-padding:12px 25px;
-text-decoration:none;
-border-radius:6px;
-display:inline-block;
-margin-top:15px;
-}
-.section{
-padding:40px 20px;
-max-width:900px;
-margin:auto;
-}
-.menu-item{
-display:flex;
-justify-content:space-between;
-padding:10px 0;
-border-bottom:1px solid #ccc;
-}
-footer{
-background:#5a3d2b;
-color:white;
-text-align:center;
-padding:20px;
-margin-top:30px;
-}
-</style>
+    <link rel="stylesheet" href="style.css">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
-<header>
-<h1>THE COPPER LANTERN</h1>
-<p>Vintage Dining • Delicious Food • Warm Hospitality</p>
+<header class="navbar">
+    <div class="logo">
+        THE COPPER LANTERN
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 </header>
 
-<nav>
-<a href="#">Home</a>
-<a href="#">Menu</a>
-<a href="#">Gallery</a>
-<a href="#">Contact</a>
-</nav>
+<section class="hero" id="home">
 
-<section class="hero">
-<h1>Experience Authentic Taste</h1>
-<p>Fresh ingredients. Timeless recipes. Elegant ambience.</p>
+<div class="overlay">
 
-<a class="button" href="https://wa.me/911234567890">
-Order on WhatsApp
+<h1>Experience Authentic Fine Dining</h1>
+
+<p>
+Vintage ambience • Premium Cuisine • Warm Hospitality
+</p>
+
+<a href="#" class="btn">
+Reserve Your Table
 </a>
-</section>
 
-<section class="section">
-<h2>Popular Dishes</h2>
-
-<div class="menu-item">
-<span>Chicken Biryani</span>
-<span>₹299</span>
-</div>
-
-<div class="menu-item">
-<span>Butter Chicken</span>
-<span>₹349</span>
-</div>
-
-<div class="menu-item">
-<span>Paneer Tikka</span>
-<span>₹249</span>
-</div>
-
-<div class="menu-item">
-<span>Veg Pizza</span>
-<span>₹299</span>
 </div>
 
 </section>
 
-<section class="section">
-<h2>Contact</h2>
-
-<p>📍 Your Restaurant Address</p>
-
-<p>📞 +91 1234567890</p>
-
-<p>✉ your@email.com</p>
-
-</section>
-
-<footer>
-© 2026 THE COPPER LANTERN
-</footer>
+<script src="script.js"></script>
 
 </body>
 </html>
