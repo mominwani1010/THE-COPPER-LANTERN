@@ -618,4 +618,21 @@ h2{
     font-size:32px !important;
 }
 
+.logo{
+    max-width:70%;
+}
+
+.logo h1{
+    font-size:28px;
+    white-space:nowrap;
+    line-height:1.2;
+}
+
+.navbar .container{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+}
+
 }
